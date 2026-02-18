@@ -1,6 +1,6 @@
 async function getAllEmployee() {
   try {
-    let resp = await fetch("http://localhost:5000/employees");
+    let resp = await fetch("https://crud-app-83gv.onrender.com/employees");
     let data = await resp.json();
     displayAllData(data);
   } catch (err) {
@@ -66,9 +66,12 @@ function displayAllData(allData) {
 async function handleDelete(id) {
   console.log(id);
   try {
-    let resp = await fetch(`http://localhost:5000/employees/${id}`, {
-      method: "DELETE",
-    });
+    let resp = await fetch(
+      `https://crud-app-83gv.onrender.com/employees/${id}`,
+      {
+        method: "DELETE",
+      },
+    );
     console.log(resp);
   } catch (err) {
     console.log(err);
