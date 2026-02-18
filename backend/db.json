@@ -1,0 +1,38 @@
+{
+  "employees": [
+    {
+      "firstName": "Talibs",
+      "middleName": "",
+      "lastName": "Hussain",
+      "Marital": "Single",
+      "Dob": "2026-02-12",
+      "Email": "mdtalibhussain404@gmail.com",
+      "Mobile": "08271147379",
+      "Address": {
+        "Home": "Noida",
+        "City": "Mohiuddin nagar",
+        "State": "UTTAR PRADESH",
+        "country": "India",
+        "Zip": "56456"
+      },
+      "id": "35ce"
+    },
+    {
+      "firstName": "Adam",
+      "middleName": "bob",
+      "lastName": "Hussain",
+      "Marital": "Single",
+      "Dob": "2026-02-04",
+      "Email": "mdtalibhussain404@gmail.com",
+      "Mobile": "08271147375",
+      "Address": {
+        "Home": "Noida",
+        "City": "Noida sector 18",
+        "State": "UTTAR PRADESH",
+        "country": "India",
+        "Zip": "56456"
+      },
+      "id": "f8e1"
+    }
+  ]
+}
